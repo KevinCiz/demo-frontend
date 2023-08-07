@@ -38,6 +38,7 @@ jobs:
         with:
           push: true
           tags: |
+            "demo-frontend"
             "latest"
           build-args: |
             ${{steps.version_step.outputs.version}}
