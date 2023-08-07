@@ -38,7 +38,6 @@ jobs:
         with:
           push: true
           tags: |
-            ${{env.VERSION_TAG}}
-            ${{env.LASTEST_TAG}}
+            "latest"
           build-args: |
             ${{steps.version_step.outputs.version}}
