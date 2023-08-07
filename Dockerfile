@@ -1,5 +1,8 @@
 # => Build container
 FROM node:alpine as builder
+
+ARG VERSION=dev 
+
 WORKDIR /app
 COPY package.json .
 COPY yarn.lock .
