@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Add new paragraph</p>
+        <p>New Message Below</p>
         <p>MESSAGE: {window._env_.MESSAGE}</p>
       </header>
     </div>
